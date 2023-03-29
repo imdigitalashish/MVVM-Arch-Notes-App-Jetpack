@@ -3,6 +3,7 @@ package com.example.notesappcleanmvvm.feature_note.domain.model
 import androidx.compose.ui.graphics.Color
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import java.lang.Exception
 
 
 @Entity
@@ -19,3 +20,6 @@ data class Note(
         val noteColors = listOf(Color.Yellow, Color.Black)
     }
 }
+
+
+class InvalidNoteException(message: String): Exception(message);
