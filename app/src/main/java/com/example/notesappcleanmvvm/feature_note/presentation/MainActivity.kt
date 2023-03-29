@@ -1,4 +1,4 @@
-package com.example.notesappcleanmvvm
+package com.example.notesappcleanmvvm.feature_note.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
